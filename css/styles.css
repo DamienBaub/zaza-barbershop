@@ -1,0 +1,467 @@
+/* Ensure the footer stays at the bottom without extra space */
+html,
+body {
+  font-family: "Lora", serif;
+  height: 100%;
+  margin: 0;
+  background-color: #222831 !important;
+  color: #eeeeee !important;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.custom-navbar {
+  background-color: #212529;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-toggler {
+  background-color: #eeeeee;
+  border-color: eeeeee;
+  outline: none;
+}
+
+.navbar-toggler:hover {
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23d8bca3' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #eeeeee !important;
+}
+
+.custom-navbar .navbar-brand {
+  color: #fcd7b0 !important;
+  font-size: 35px;
+}
+
+.custom-navbar .navbar-brand .title-font {
+  padding-left: 20px;
+  font-family: "Faculty Glyphic", sans-serif;
+}
+
+.nav-link:hover {
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+.custom-btn {
+  background-color: #eeeeee !important;
+  color: #222831 !important;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #eeeeee !important;
+  transition: 0.3s;
+}
+
+.about-section h2 {
+  font-weight: 600;
+  color: #fcd7b0;
+  font-family: "Faculty Glyphic", sans-serif;
+}
+
+.hero-img {
+  border-radius: 50px;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#pricing {
+  background-color: #222831 !important;
+}
+
+.custom-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.footer-style {
+  color: #eeeeee;
+}
+
+.footer-style a {
+  color: #eeeeee !important;
+  text-decoration: none;
+}
+
+.footer-style a:hover {
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+/* Adjust text shadow for better readability */
+.hero-section h1,
+.hero-section p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Add spacing for fixed navbar */
+.about-section {
+  padding-top: 140px !important;
+  margin-top: 2rem;
+}
+
+/* Opening Hours Table Styling */
+.opening-hours-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #222831;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.opening-hours-table td {
+  padding: 12px 20px;
+  border-bottom: 2px solid #fcd7b0;
+  font-family: "Lora", serif;
+  color: #eeeeee;
+}
+
+.opening-hours-table tr:last-child td {
+  border-bottom: none;
+}
+
+.opening-hours-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.opening-hours-table td:first-child {
+  font-weight: 600;
+  width: 70%;
+}
+
+.opening-hours-title {
+  font-family: "Faculty Glyphic", serif;
+  color: #eeeeee;
+  margin-bottom: 1.5rem;
+}
+
+.gallery-img-container {
+  aspect-ratio: 1 / 1;
+  /* Creates a square container */
+  overflow: hidden;
+  /* Prevents image overflow */
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Maintains aspect ratio while filling container */
+}
+
+/* Carousel Arrow Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #212529;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  opacity: 0.9;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.testimonial-card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  background-color: #4e535b !important;
+  color: #eeeeee !important;
+  border-radius: 5px;
+}
+
+.pricing-card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-card .opening-hours-table {
+  width: 100%;
+}
+
+.pricing-card .opening-hours-table td {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card .opening-hours-table td:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+.special-service {
+  background-color: #fcd7b0;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.special-service td {
+  border-bottom: none !important;
+}
+
+/* Price List Section Styling */
+#pricing h2 {
+  font-family: "Faculty Glyphic", serif;
+  color: #fcd7b0;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-card {
+  border: none;
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.pricing-card .card-body {
+  padding: 0;
+  background-color: transparent !important;
+}
+
+.pricing-card .opening-hours-title {
+  font-family: "Faculty Glyphic", serif;
+  color: #fcd7b0;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-card .opening-hours-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #222831;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+#pricing h2 {
+  color: #eeeeee;
+}
+
+#pricing h3 {
+  color: #eeeeee;
+}
+
+#pricing h4 {
+  color: #fcd7b0;
+}
+
+.pricing-card .opening-hours-table td {
+  padding: 12px 20px;
+  border-bottom: 2px solid #fcd7b0;
+  font-family: "Lora", serif;
+  color: #eeeeee;
+}
+
+.pricing-card .opening-hours-table tr:last-child td {
+  border-bottom: none;
+}
+
+.pricing-card .opening-hours-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.pricing-card .opening-hours-table td:first-child {
+  font-weight: 600;
+  width: 70%;
+}
+
+.special-service {
+  background-color: #222831;
+  color: #eeeeee !important;
+}
+
+.special-service td {
+  color: #222831 !important;
+  border-bottom: none !important;
+}
+
+.special-service h4 {
+  color: #eeeeee;
+  font-family: "Faculty Glyphic", serif;
+  font-weight: bold;
+}
+
+.special-service p {
+  color: #eeeeee;
+  margin-bottom: 1rem;
+}
+
+/* Contact Section Styling */
+#contact h2 {
+  font-family: "Faculty Glyphic", serif;
+  color: #eeeeee;
+}
+
+.contact-card {
+  background-color: #222831;
+  border: none;
+  border-radius: 8px;
+}
+
+.contact-card label {
+  font-family: "Faculty Glyphic", serif;
+  color: #eeeeee;
+  margin-bottom: 0.5rem;
+}
+
+.contact-card .form-control {
+  background-color: #4f535b;
+  border: 2px solid #fcd7b0;
+  border-radius: 4px;
+  color: #eeeeee;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+
+.contact-card .form-control:focus {
+  background-color: #222831;
+  border-color: #fcd7b0;
+  box-shadow: 0 0 0 0.2rem rgba(252, 215, 176, 0.25);
+  color: #eeeeee;
+}
+
+.contact-card .form-control::placeholder {
+  color: rgba(238, 238, 238, 0.5);
+}
+
+.contact-card select.form-control option {
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+/* Form validation styling */
+.contact-card .form-control:invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.contact-card textarea {
+  resize: none;
+}
+
+.contact-card .card-body {
+  background-color: #222831 !important;
+}
+
+/* Success page styling */
+.fa-check-circle {
+  animation: scaleIn 0.5s ease-in-out;
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Button styling */
+.custom-btn {
+  background-color: #fcd7b0;
+  border: none;
+  color: #222831;
+  padding: 12px 30px;
+  font-family: "Faculty Glyphic", serif;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #f8c28e;
+  color: #222831;
+}
+
+.navbar-brand img {
+  max-height: 120px;
+  width: auto;
+}
+
+.nav-link {
+  color: #eeeeee !important;
+  font-size: 1.1rem;
+  padding: 1rem 1.5rem !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fcd7b0 !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 991.98px) {
+  .navbar-brand img {
+    max-height: 90px;
+  }
+
+  .custom-navbar {
+    padding: 0.25rem 1rem;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem !important;
+  }
+
+  .about-section {
+    padding-top: 110px !important;
+  }
+}
