@@ -18,8 +18,8 @@ main {
 }
 
 .navbar-toggler {
-  background-color: #eeeeee;
-  border-color: eeeeee;
+  background-color: #212529;
+  border-color: #fcd7b0;
   outline: none;
 }
 
@@ -463,5 +463,13 @@ main {
 
   .about-section {
     padding-top: 110px !important;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    padding: 1rem 0;
   }
 }
