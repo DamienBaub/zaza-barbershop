@@ -465,3 +465,10 @@ main {
     padding-top: 110px !important;
   }
 }
+
+@media (max-width: 768px) {
+  .mobile-smaller {
+    max-width: 75%;
+    /* Reduces image to 75% of its container width on mobile */
+  }
+}
