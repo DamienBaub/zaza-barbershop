@@ -468,7 +468,7 @@ main {
 
 @media (max-width: 768px) {
   .mobile-smaller {
-    max-width: 75%;
+    max-width: 50%;
     /* Reduces image to 75% of its container width on mobile */
   }
 }
