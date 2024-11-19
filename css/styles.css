@@ -465,9 +465,3 @@ main {
     padding-top: 110px !important;
   }
 }
-
-@media (max-width: 900px) {
-  .mobile-smaller {
-    max-width: 50%;
-  }
-}
