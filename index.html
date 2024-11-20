@@ -24,6 +24,32 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- FOR SEO -->
+  <meta name="description"
+    content="Experienced Turkish barbers in Fenstanton providing professional haircuts, hot towel shaves, and beard trimming services.">
+  <meta name="keywords"
+    content="Turkish barber, Fenstanton barber, men's haircuts, hot towel shave, beard trim, barbershop, Zaza Barbershop">
+  <meta name="author" content="Zaza Barbershop">
+  <meta name="robots" content="index, follow">
+
+  <!-- Social media -->
+  <meta property="og:title" content="Zaza Barbershop | Fenstanton">
+  <meta property="og:description"
+    content="Professional Turkish barbershop offering expert haircuts and grooming services in Fenstanton.">
+  <meta property="og:image" content="images/logo.jpg">
+  <!-- TODO add URL -->
+  <meta property="og:url" content="[Your Website URL]">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zaza Barbershop | Fenstanton">
+  <meta name="twitter:description"
+    content="Professional Turkish barbershop offering expert haircuts and grooming services in Fenstanton.">
+  <meta name="twitter:image" content="images/logo.jpg">
+
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="preload" as="style" href="css/styles.css">
+  <!-- TODO add URL -->
+  <link rel="preload" as="font" href="[Your Font URL]" crossorigin>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -31,7 +57,7 @@
   <nav id="home" class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar mb-4">
     <div class="container">
       <a class="navbar-brand" href="#home">
-        <img src="images/logo.jpg" alt="Logo" height="100" />
+        <img src="images/logo.jpg" alt="Zaza Barbershop Logo - Turkish Barbers in Fenstanton" height="100" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -115,7 +141,8 @@
             </div>
           </div>
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="images/hero-image2.png" alt="About Our Business" class="img-fluid hero-img mx-auto d-block" />
+            <img src="images/hero-image2.png" alt="Professional Turkish Barber Services at Zaza Barbershop"
+              class="img-fluid hero-img mx-auto d-block" />
           </div>
         </div>
         <hr />
@@ -513,7 +540,7 @@
     <!-- BUG This is a simpler solution that should work right away without any additional setup beyond the initial email confirmation. -->
 
     <!-- Footer Section -->
-    <footer class="footer mt-auto bg-dark text-light py-4">
+    <footer class="footer mt-auto bg-dark text-light py-4" role="contentinfo">
       <div class="container footer-style">
         <div class="row">
           <div class="col-md-4 mb-3">
@@ -554,6 +581,54 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="scripts.js"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HairSalon",
+      "name": "Zaza Barbershop",
+      "image": "images/logo.jpg",
+      "description": "Experienced Turkish barbers using technical expertise to provide all your styling needs.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1 Rookery Pl",
+        "addressLocality": "Fenstanton",
+        "addressRegion": "Huntingdon",
+        "postalCode": "PE28 9LZ",
+        "addressCountry": "UK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        <!--TODO ADD LATITUDE AND LONGITUDE -->
+        "latitude": "52.297356101294746",
+        "longitude": "-0.06524632963210593"
+      },
+      <!-- TODO add URL -->
+      "url": "[Your Website URL]",
+      "telephone": "07438 259701",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "16:00"
+        }
+      ],
+      "priceRange": "££"
+    }
+    </script>
 
 </body>
 
